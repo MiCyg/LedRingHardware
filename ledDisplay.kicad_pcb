@@ -147,6 +147,7 @@
 	(net 65 "unconnected-(U4-GPIO29_ADC3-Pad41)")
 	(net 66 "Net-(D2-A)")
 	(net 67 "Net-(D3-DIN)")
+	(net 68 "Net-(C12-Pad1)")
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0450b67b-dd69-47cf-a4b7-6acc09f1f82e")
@@ -156,6 +157,7 @@
 		(property "Reference" "C26"
 			(at 0 -1.68 157.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "42f523f6-f95c-4d89-be43-d4c430cebeb7")
 			(effects
 				(font
@@ -184,6 +186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -196,10 +199,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -208,6 +212,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -223,7 +228,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ecde34aa-fbc6-4249-90b1-72db758c3f55")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -376,6 +383,7 @@
 		(property "Reference" "D5"
 			(at 0 -3.5 157.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8cfa8dc7-c56c-4add-b746-db7cdcb6f277")
 			(effects
 				(font
@@ -404,10 +412,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -416,10 +425,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -428,10 +438,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b4f9d2eb-dcb0-414e-8ee6-4b7decfa6a09")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -644,6 +657,7 @@
 		(property "Reference" "D3"
 			(at 0 -3.5 67.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bfd80b83-9e42-40f7-b926-4f7aa8c4b37e")
 			(effects
 				(font
@@ -672,10 +686,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 -112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -684,10 +699,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -696,10 +712,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/b7f1d564-5c6a-4f8a-8c86-dd82de21304c")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -912,6 +931,7 @@
 		(property "Reference" "D4"
 			(at 0 -3.5 22.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a0c0b769-d3c2-4877-bc84-ac047ebc9b8b")
 			(effects
 				(font
@@ -940,10 +960,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 -157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -952,10 +973,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -964,10 +986,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/a9a25482-5b5c-4a7c-b940-adcbe61b6f59")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1180,6 +1205,7 @@
 		(property "Reference" "C21"
 			(at 0 -1.68 112.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fc6ab40c-ffbc-4588-9c8c-3e7658901ebb")
 			(effects
 				(font
@@ -1208,6 +1234,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1220,10 +1247,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1232,6 +1260,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1247,7 +1276,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9a385ba5-1de8-4878-955a-3c01af8360c5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1400,6 +1431,7 @@
 		(property "Reference" "C22"
 			(at 0 -1.68 157.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e800c151-187b-4c48-8eaf-c8f836a2243b")
 			(effects
 				(font
@@ -1428,6 +1460,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1440,10 +1473,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1452,6 +1486,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1467,7 +1502,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ade9ced6-2a21-4021-91b0-205ece5d3d89")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1620,6 +1657,7 @@
 		(property "Reference" "C23"
 			(at 0 -1.68 22.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5337aea6-9e81-4f4a-97a7-e6fb0bc4bd3e")
 			(effects
 				(font
@@ -1648,6 +1686,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1660,10 +1699,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -157.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1672,6 +1712,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1687,7 +1728,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ed8a2b01-5986-47ce-bed8-b6bfafaf2258")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1840,6 +1883,7 @@
 		(property "Reference" "C24"
 			(at 0 -1.68 67.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2848f4d4-1900-4264-bc2d-7ec27410d2e8")
 			(effects
 				(font
@@ -1868,6 +1912,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1880,10 +1925,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1892,6 +1938,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1907,7 +1954,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d9e6d311-507d-47b5-b91a-b83870f8b432")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2060,6 +2109,7 @@
 		(property "Reference" "C25"
 			(at 0 -1.68 112.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4543a426-983f-417e-8905-41dcbb79cb33")
 			(effects
 				(font
@@ -2088,6 +2138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2100,10 +2151,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2112,6 +2164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2127,7 +2180,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/42e47c49-277b-42b0-b578-dbbeb5b76b04")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2277,9 +2332,10 @@
 		(at 173 87 90)
 		(descr "tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm")
 		(tags "tact sw push 6mm smd")
-		(property "Reference" "SW1"
+		(property "Reference" "SWe"
 			(at 0 -4.05 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "33bac47f-da47-426e-9466-3f5f9bee0b97")
 			(effects
 				(font
@@ -2308,10 +2364,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2320,10 +2377,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2332,6 +2390,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2347,7 +2406,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SW*Omron*B3FS*")
 		(path "/13fd6608-4894-4bff-a4d9-ebe2f520ef42")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2568,7 +2629,7 @@
 			(pintype "passive")
 			(uuid "606eeb3f-ae7d-4153-932e-70f26d24e214")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2618,6 +2679,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2630,10 +2692,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2642,10 +2705,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/347c42f6-d6da-421d-a7e6-c037a707e0b4")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -2698,6 +2764,7 @@
 		(property "Reference" "D8"
 			(at 0 -3.5 22.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1922c1d1-15cd-4b9f-83b0-e0fbcf378da9")
 			(effects
 				(font
@@ -2726,10 +2793,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2738,10 +2806,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2750,10 +2819,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/05365f6d-e890-4f33-9bdb-b1c778f1ba93")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2966,6 +3038,7 @@
 		(property "Reference" "D6"
 			(at 0 -3.5 112.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "08022069-32a8-4872-93b7-fc144834244a")
 			(effects
 				(font
@@ -2994,10 +3067,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3006,10 +3080,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 112.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3018,10 +3093,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/de0511c6-84fc-4fb4-8697-c017387835dc")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3234,6 +3312,7 @@
 		(property "Reference" "D10"
 			(at 0 -3.5 112.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dfb6ea23-4ee6-45cd-900d-3406360d2ae3")
 			(effects
 				(font
@@ -3262,10 +3341,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 -67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3274,10 +3354,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3286,10 +3367,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/d79d7011-3a54-459a-b984-94d4f3dd720e")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3502,6 +3586,7 @@
 		(property "Reference" "C20"
 			(at 0 -1.68 67.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aeacf923-2a35-4a4f-a03c-ea5e72e5e37f")
 			(effects
 				(font
@@ -3530,6 +3615,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3542,10 +3628,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3554,6 +3641,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3569,7 +3657,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dbd3d2db-7413-4fdb-bc03-a96da0a087c5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3722,6 +3812,7 @@
 		(property "Reference" "C19"
 			(at 0 -1.68 22.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c7d80fc7-0b9f-4238-914d-708478dcc361")
 			(effects
 				(font
@@ -3750,6 +3841,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3762,10 +3854,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3774,6 +3867,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3789,7 +3883,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7f33f88f-c5a9-4b63-adeb-dad8ad6dc7a0")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3942,6 +4038,7 @@
 		(property "Reference" "D9"
 			(at 0 -3.5 157.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "22011cde-0853-46f2-aada-f0c138f5fd31")
 			(effects
 				(font
@@ -3970,10 +4067,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 -22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3982,10 +4080,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 -22.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3994,10 +4093,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/96077d63-e6d5-4f2b-9171-444bb40bf16c")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4210,6 +4312,7 @@
 		(property "Reference" "D7"
 			(at 0 -3.5 67.5)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "06e9f590-de23-4d13-9891-1913a26ad030")
 			(effects
 				(font
@@ -4238,10 +4341,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 0 0 67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4250,10 +4354,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" ""
 			(at 0 0 67.5)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4262,10 +4367,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/2d6d6a5c-1e10-44ae-96c1-99d9603a6158")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4478,6 +4586,7 @@
 		(property "Reference" "R10"
 			(at 0 -1.43 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "52de0454-489c-4d70-a9b6-7597007a8799")
 			(effects
 				(font
@@ -4506,6 +4615,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4518,10 +4628,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4530,10 +4641,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/485d71a5-0901-44f1-bc73-647b5da58597")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4716,6 +4830,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4728,10 +4843,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4740,10 +4856,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/7b14ebca-568b-41c4-b939-e69e4486d2c0")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -4797,7 +4916,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 1.43 0)
+			(at 2.573279 -0.043095 0)
 			(layer "B.SilkS")
 			(uuid "a76091c1-e8bf-4617-9070-754ca3d306ce")
 			(effects
@@ -4829,6 +4948,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4841,10 +4961,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4853,6 +4974,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4869,7 +4991,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/013772c9-98b8-4ed9-bb96-5e7a7dda7517")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5021,7 +5145,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 1.43 0)
+			(at -2.794 0 0)
 			(layer "B.SilkS")
 			(uuid "17f65350-ec1b-4108-b0a4-1b451dd6bae2")
 			(effects
@@ -5053,6 +5177,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5065,10 +5190,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5077,6 +5203,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5093,7 +5220,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/558a8b4e-4512-459a-aa8b-7cb9b18f00f4")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5247,6 +5376,7 @@
 		(property "Reference" "TP3"
 			(at 0 1.648 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cab5b823-598e-4992-bcbd-81563be3cc44")
 			(effects
 				(font
@@ -5277,6 +5407,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5289,10 +5420,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5301,10 +5433,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/d9fe3b1e-3e21-4da9-b954-7ffcc4a384d5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -5358,7 +5493,7 @@
 		(descr "SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 2.2 0)
+			(at 2.413 0.635 -90)
 			(layer "B.SilkS")
 			(uuid "790edec6-fe04-46c6-a9d4-570a09787c38")
 			(effects
@@ -5390,6 +5525,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5402,10 +5538,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5414,6 +5551,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5430,7 +5568,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/d3c76b6d-beb5-4154-89d1-cb63d8103e80")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5650,7 +5790,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
-			(at 0 1.679999 45)
+			(at -0.089803 -1.706249 45)
 			(layer "B.SilkS")
 			(uuid "e650253d-8482-4c2f-8c93-240223411ca7")
 			(effects
@@ -5682,6 +5822,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5694,10 +5835,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5706,6 +5848,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5722,7 +5865,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/cbfaea0c-60e0-474a-9386-e6ba504877cd")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5874,7 +6019,7 @@
 		(descr "10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.5")
 		(property "Reference" "U1"
-			(at 0 2.6 0)
+			(at 4.023 1.397 0)
 			(layer "B.SilkS")
 			(uuid "75e18d87-1d46-449e-b24e-623a51d5d7f3")
 			(effects
@@ -5906,10 +6051,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22005b.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5918,10 +6064,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller, MSOP-10"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5930,10 +6077,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "MSOP*3x3mm*P0.5mm*")
 		(path "/47867957-17e9-41db-b25d-3f2685294132")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(clearance 0.2)
 		(attr smd)
@@ -6115,7 +6265,7 @@
 			(at -2.2 1)
 			(size 1.4 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 3 "VBUS")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "V_{DD}")
 			(pintype "power_in")
 			(uuid "fba3ea8a-f825-44b8-8360-e1bc6f4aca11")
@@ -6124,7 +6274,7 @@
 			(at -2.2 0.5)
 			(size 1.4 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 3 "VBUS")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "V_{DD}")
 			(pintype "passive")
 			(uuid "a327f4cb-3fe2-457b-bcd3-df6501e12c0e")
@@ -6220,7 +6370,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 1.43 90)
+			(at 2.613842 -0.079159 90)
 			(layer "B.SilkS")
 			(uuid "20e073f7-7347-4e86-aa0f-078580515f9e")
 			(effects
@@ -6252,6 +6402,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6264,10 +6415,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6276,6 +6428,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6292,7 +6445,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/225b485e-1a24-4ffc-89ba-8ada52d654ae")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6446,6 +6601,7 @@
 		(property "Reference" "TP4"
 			(at 0 1.648 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a6c6fdf8-3fc2-4ee9-8d7c-ec0bf7c8bfe9")
 			(effects
 				(font
@@ -6476,6 +6632,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6488,10 +6645,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6500,10 +6658,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/10781a8b-b47c-4bc8-a8d2-92e369854393")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -6589,6 +6750,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6601,10 +6763,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6613,6 +6776,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6629,7 +6793,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5c2765a9-bd49-4c15-97f2-bc3950062c0c")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6813,10 +6979,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6825,10 +6992,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6837,6 +7005,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6853,7 +7022,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/ac69b60f-0a0d-4b66-b757-cb190a622c08")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7130,7 +7301,7 @@
 			(pintype "power_in")
 			(uuid "d1578146-f224-4031-9bbb-4307da95080b")
 		)
-		(model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7149,7 +7320,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0 1.43 0)
+			(at 0.533109 1.527838 0)
 			(layer "B.SilkS")
 			(uuid "b17deb95-03b4-4705-9188-1f1782c993f7")
 			(effects
@@ -7181,6 +7352,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7193,10 +7365,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7205,10 +7378,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/06f5282d-44b0-441a-8a7f-9b7d60cbb69e")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7382,7 +7558,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 1.43 0)
+			(at -2.369656 0.002047 -90)
 			(layer "B.SilkS")
 			(uuid "7fff0c78-da84-4c61-ab18-a9f87aef43d7")
 			(effects
@@ -7414,6 +7590,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7426,10 +7603,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7438,6 +7616,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7454,7 +7633,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bf1882df-e0f6-4c3c-87ce-d1d2e6536777")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7608,6 +7789,7 @@
 		(property "Reference" "TP5"
 			(at 0 1.648 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "12dd8d98-5e02-42f5-bbaa-64de3e607d7d")
 			(effects
 				(font
@@ -7638,6 +7820,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7650,10 +7833,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7662,10 +7846,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/278d3c48-9c9b-42a1-b8c5-f3f51acd14f7")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -7751,6 +7938,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7763,10 +7951,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7775,10 +7964,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/3947b6a7-a7e7-412b-b6a7-45ddf07b37f6")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -7864,6 +8056,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7876,6 +8069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7888,6 +8082,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7917,7 +8112,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/60c14967-59c7-4df4-8b94-f8e78def648e")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8151,7 +8345,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 1.43 0)
+			(at 2.599779 -0.00286 0)
 			(layer "B.SilkS")
 			(uuid "a7e0efba-c5cc-4c70-a696-e3814b5df8cf")
 			(effects
@@ -8183,6 +8377,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8195,10 +8390,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8207,6 +8403,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8223,7 +8420,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5dd53a30-7a7f-4621-a327-8c0dfac876b8")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8375,7 +8574,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at 0 1.43 0)
+			(at -0.381 -1.27 0)
 			(layer "B.SilkS")
 			(uuid "8bac2109-4995-4376-928e-c1bcf356cc6b")
 			(effects
@@ -8407,6 +8606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8419,10 +8619,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8431,10 +8632,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ffd607d9-0899-4e5d-bede-198dd74fbb26")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8586,7 +8790,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 1.43 90)
+			(at 2.643364 -0.001558 90)
 			(layer "B.SilkS")
 			(uuid "a55acf8a-0557-47f0-a884-5fcc51266065")
 			(effects
@@ -8618,6 +8822,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8630,10 +8835,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8642,6 +8848,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8658,7 +8865,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/58b5d9cf-c4d5-4d6c-818e-4ad312808cb7")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8842,6 +9051,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8854,10 +9064,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8866,6 +9077,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8882,7 +9094,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ad0a2466-fc8d-4850-80ba-29e3f6e73307")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9034,7 +9248,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 1.43 90)
+			(at 2.608036 0.031397 90)
 			(layer "B.SilkS")
 			(uuid "509f8e14-664c-498b-a28b-3296a8c8365a")
 			(effects
@@ -9066,6 +9280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9078,10 +9293,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9090,10 +9306,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3ab2573b-182b-46a9-9e4a-ce298ffb11a9")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9247,6 +9466,7 @@
 		(property "Reference" "TP6"
 			(at 0 1.648 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1e72579a-6ff4-4ff9-a213-fb286c3f6257")
 			(effects
 				(font
@@ -9277,6 +9497,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9289,10 +9510,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9301,10 +9523,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/b563342e-afd0-4e02-84d3-1ab21092acc3")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -9390,6 +9615,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9402,10 +9628,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9414,10 +9641,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cfb39707-e76b-435a-9dad-3d21c0221d50")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9925,6 +10155,7 @@
 			(uuid "50b0635e-701e-4572-be60-9dc2b885c071")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Horizontal.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9975,6 +10206,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9987,10 +10219,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9999,6 +10232,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10015,7 +10249,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5eee76fb-0753-497c-9b70-76690801db2b")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10167,7 +10403,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 1.68 90)
+			(at 0 1.651 90)
 			(layer "B.SilkS")
 			(uuid "d973511f-e530-4ea7-8b41-b5eaac50b047")
 			(effects
@@ -10199,6 +10435,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10211,10 +10448,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10223,6 +10461,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10239,7 +10478,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ad8371cd-b9ab-4ac5-a54b-57275305c718")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10359,7 +10600,7 @@
 			(size 1.175 1.45)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.2127659574)
-			(net 3 "VBUS")
+			(net 68 "Net-(C12-Pad1)")
 			(pintype "passive")
 			(uuid "5bf0b5a8-7f6c-42f7-b6d7-ff5fbe67d5cb")
 		)
@@ -10391,7 +10632,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 1.43 0)
+			(at 2.286 0.127 0)
 			(layer "B.SilkS")
 			(uuid "acdb3e13-d7d1-450d-a0dd-56d146013b27")
 			(effects
@@ -10423,6 +10664,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10435,10 +10677,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10447,6 +10690,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10463,7 +10707,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6173ba16-42b3-4c07-ada9-726c290387f6")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10615,7 +10861,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 0 1.43 90)
+			(at 0 -1.651 90)
 			(layer "B.SilkS")
 			(uuid "d8993909-bb96-4020-b115-09bb9bc7e7fe")
 			(effects
@@ -10647,6 +10893,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10659,10 +10906,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10671,6 +10919,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10687,7 +10936,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a8deaa87-a698-483a-a723-2d8e63a982ae")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10839,7 +11090,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at 0 1.648 0)
+			(at 0.295949 1.931583 0)
 			(layer "B.SilkS")
 			(uuid "06f12077-5ba2-4541-97c9-6b96c8b83d7d")
 			(effects
@@ -10871,6 +11122,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10883,10 +11135,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10895,10 +11148,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/ece1aa6b-d102-44d4-b7fa-2b5dd6f73daa")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -10984,6 +11240,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10996,10 +11253,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11008,6 +11266,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11024,7 +11283,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/81c6746b-d0e3-4a09-a541-c70c651083f5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11176,7 +11437,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 1.43 0)
+			(at -0.122907 -1.437234 0)
 			(layer "B.SilkS")
 			(uuid "828e140a-7e09-47eb-8a34-70a5e3abe07b")
 			(effects
@@ -11208,6 +11469,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11220,10 +11482,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11232,6 +11495,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11248,7 +11512,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a5773825-80f7-4d4d-951c-bf4e3dc43dd5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11400,7 +11666,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 0 1.43 90)
+			(at 2.643364 0.024366 90)
 			(layer "B.SilkS")
 			(uuid "a4c2b387-a90c-4a0a-a414-f90745aeac21")
 			(effects
@@ -11432,6 +11698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11444,10 +11711,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11456,6 +11724,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11472,7 +11741,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2965007f-083d-472c-a67b-8510f30137f5")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11624,7 +11895,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 1.43 0)
+			(at -2.921 0 0)
 			(layer "B.SilkS")
 			(uuid "2bf74db3-92c2-468e-81af-c9c522edf819")
 			(effects
@@ -11656,6 +11927,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11668,10 +11940,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11680,6 +11953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11696,7 +11970,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3f6a2607-20aa-4e6b-8fd7-ce77fd1ee2da")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11880,6 +12156,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11892,10 +12169,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11904,10 +12182,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/cc3c1bf8-8121-4505-80a6-380040ffb763")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11961,7 +12242,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 1.43 0)
+			(at -2.4395 0.127 -90)
 			(layer "B.SilkS")
 			(uuid "f4ec4fce-a369-432e-8f83-7e3357193b8d")
 			(effects
@@ -11993,6 +12274,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12005,10 +12287,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12017,6 +12300,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12033,7 +12317,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5cb82140-8d6b-4393-8ec2-6333cea680f9")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12217,6 +12503,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12229,10 +12516,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12241,6 +12529,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12257,7 +12546,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a0784856-159e-4276-bf04-690fc10c9b89")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12441,10 +12732,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12453,10 +12745,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12465,10 +12758,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/fe0f682f-7401-465f-8b57-0aaaff943a51")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12684,8 +12980,9 @@
 		(descr "USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "P1"
-			(at 0 5.5 0)
+			(at 0.28 1.05 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9a58a47a-1962-4d10-b7b0-ce8895ae3469")
 			(effects
 				(font
@@ -12716,10 +13013,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12728,10 +13026,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12740,10 +13039,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/9c2c95a2-c169-4408-aa12-d352fdc03524")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12915,7 +13217,7 @@
 			(at -2.4 3.725 180)
 			(size 0.6 1.24)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 12 "Net-(D1-A)")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "d63eeb63-f02f-46ad-8008-51607f3a81ea")
@@ -12957,7 +13259,7 @@
 			(at 2.4 3.725 180)
 			(size 0.6 1.24)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 12 "Net-(D1-A)")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "8d857b61-43ac-4141-a2c8-62bab0fdea15")
@@ -12984,7 +13286,7 @@
 			(at 2.4 3.725 180)
 			(size 0.6 1.24)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 12 "Net-(D1-A)")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "554ee078-c1a8-4193-9661-b0f7c69598c9")
@@ -13026,7 +13328,7 @@
 			(at -2.4 3.725 180)
 			(size 0.6 1.24)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 12 "Net-(D1-A)")
+			(net 68 "Net-(C12-Pad1)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "e9df78e0-0a46-4fd0-8fa5-85417e852417")
@@ -13084,7 +13386,7 @@
 			(pintype "passive")
 			(uuid "5d83555b-5a89-4aa2-9e44-81486f7cfd86")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13103,7 +13405,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 1.43 90)
+			(at 2.643364 -0.006302 90)
 			(layer "B.SilkS")
 			(uuid "730e32f2-d87b-4b23-aede-14a14466d0a1")
 			(effects
@@ -13135,6 +13437,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13147,10 +13450,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13159,10 +13463,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d9a7b7b6-a895-4dee-b5ab-c5797e54bfe9")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13314,7 +13621,7 @@
 		(descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U4"
-			(at 0 4.83 90)
+			(at -4.788 4.153 0)
 			(layer "B.SilkS")
 			(uuid "f8be5b20-95b6-47f2-8add-fd0b16342880")
 			(effects
@@ -13346,6 +13653,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13358,6 +13666,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13370,10 +13679,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(path "/c892b0f8-d183-4963-beef-bff981e9fe1e")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14188,7 +14499,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 1.43 0)
+			(at 2.561503 -0.017582 0)
 			(layer "B.SilkS")
 			(uuid "90f78832-753a-4bb6-bb2d-e7e3c9559487")
 			(effects
@@ -14220,6 +14531,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14232,10 +14544,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14244,6 +14557,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14260,7 +14574,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f38f1da6-fa92-4c16-b18e-dd5f5b517efd")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14412,7 +14728,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 1.43 0)
+			(at -0.213 1.317318 0)
 			(layer "B.SilkS")
 			(uuid "a86286d4-c8eb-4b75-811f-1c27d1e95639")
 			(effects
@@ -14423,7 +14739,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "5.1k"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "bf680089-728a-40cd-91be-44c20db1892d")
@@ -14444,6 +14760,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14456,10 +14773,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14468,10 +14786,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/aff84bbc-17df-4135-a7a0-dd3a3a3e4688")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14623,7 +14944,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 1.43 0)
+			(at -3.297256 0.094943 0)
 			(layer "B.SilkS")
 			(uuid "c28b5e5c-832c-4cab-a947-f2b2629113b3")
 			(effects
@@ -14655,6 +14976,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14667,10 +14989,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14679,6 +15002,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14695,7 +15019,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3fc4a35b-5c63-40a3-8308-1b347f53f334")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14847,7 +15173,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 1.43 90)
+			(at 2.660945 0.024452 90)
 			(layer "B.SilkS")
 			(uuid "f307e54d-d0cc-48df-bc4f-287d450503d5")
 			(effects
@@ -14879,6 +15205,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14891,10 +15218,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14903,6 +15231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14919,7 +15248,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7fa92f66-78ac-441b-94ca-de834cc1aa6e")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15071,7 +15402,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 1.43 0)
+			(at -3.332584 -0.053236 0)
 			(layer "B.SilkS")
 			(uuid "3ef26040-2f74-47d2-a33a-b245b8b9c32e")
 			(effects
@@ -15103,6 +15434,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15115,10 +15447,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15127,6 +15460,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15143,7 +15477,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b31bd967-9d52-499b-967f-6fa6657aac93")
+		(sheetname "Root")
 		(sheetfile "ledDisplay.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15288,46 +15624,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 152.5 99)
-		(end 152.5 74)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "37f9f37e-de80-493c-bcc3-6fb741ec2e3f")
-	)
-	(gr_line
-		(start 193.5 99)
-		(end 152.5 99)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "b096fca3-17e4-43f1-a064-f2decdc37c6d")
-	)
-	(gr_line
-		(start 193.5 74)
-		(end 193.5 99)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "ed099a03-1c64-4e85-a9e3-08655518de9f")
-	)
-	(gr_line
-		(start 193.5 74)
-		(end 152.5 74)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "f013806d-d7ec-4049-9cba-11fb886364dc")
-	)
 	(gr_circle
 		(center 173 87)
 		(end 198 87)
@@ -15351,16 +15647,28 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Li-Po 3.7V\nBattery"
-		(at 173 88 0)
+	(gr_text "BOOT"
+		(at 165.003831 75.148672 0)
 		(layer "B.SilkS")
-		(uuid "c54abb2b-7f78-448b-97f8-f3bd07621726")
+		(uuid "3cc23cfb-035e-407c-aee0-294ce15962c7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.1875)
 			)
-			(justify bottom mirror)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 181.102 72.644 0)
+		(layer "B.SilkS")
+		(uuid "ff186cb1-9ef4-47e4-9aa3-3b85351499f1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
@@ -22692,21 +23000,15 @@
 		(members "bb84a0b1-e2e8-410c-8e08-8c1a4669790a" "cd19f74a-2431-4cba-a042-1513c6ee4e70")
 	)
 	(group ""
-		(uuid "2fa5306b-ee43-41b5-948f-291aa327d04a")
-		(members "1a8c683b-050c-460a-9061-097d398b5bad" "8c3996f1-b80b-4fc0-bc53-d24b2d7c6939")
+		(uuid "52a88967-3cc4-43d6-ab5d-e1e321e59af3")
+		(members "1a8c683b-050c-460a-9061-097d398b5bad" "8c3996f1-b80b-4fc0-bc53-d24b2d7c6939"
+			"ff186cb1-9ef4-47e4-9aa3-3b85351499f1"
+		)
 	)
 	(group ""
-		(uuid "3a945f98-ac44-4757-b0c1-551854099bea")
-		(members "0413e628-9726-4f57-808e-5fe26ef4a6b5" "4176fe7a-8a11-475b-9551-c7c5268eeab2")
-	)
-	(group ""
-		(uuid "df5914dd-a1e2-4b40-8d5d-00a9ba2431e0")
-		(members "c54abb2b-7f78-448b-97f8-f3bd07621726" "f2ce4faa-02e6-43ec-b178-57e45a6db8a7")
-	)
-	(group ""
-		(uuid "f2ce4faa-02e6-43ec-b178-57e45a6db8a7")
-		(members "37f9f37e-de80-493c-bcc3-6fb741ec2e3f" "b096fca3-17e4-43f1-a064-f2decdc37c6d"
-			"ed099a03-1c64-4e85-a9e3-08655518de9f" "f013806d-d7ec-4049-9cba-11fb886364dc"
+		(uuid "c5717c05-5849-4b98-abb4-19f2d9f75cec")
+		(members "0413e628-9726-4f57-808e-5fe26ef4a6b5" "3cc23cfb-035e-407c-aee0-294ce15962c7"
+			"4176fe7a-8a11-475b-9551-c7c5268eeab2"
 		)
 	)
 )
