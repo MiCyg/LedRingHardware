@@ -5350,6 +5350,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 29.21) (xy 74.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fade08-ba7f-4d58-93de-157d8547289c")
+	)
+	(wire
+		(pts
 			(xy 250.19 71.12) (xy 252.73 71.12)
 		)
 		(stroke
@@ -6330,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 29.21) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5635ef6-b6ef-42e7-80d0-d653525f8a95")
+	)
+	(wire
+		(pts
 			(xy 148.59 101.6) (xy 151.13 101.6)
 		)
 		(stroke
@@ -6397,6 +6417,16 @@
 			(type default)
 		)
 		(uuid "dd3a6a4c-c175-4117-aabc-6b8cffc960f6")
+	)
+	(wire
+		(pts
+			(xy 106.68 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd638292-c30e-46fc-af9e-9c0ef9a94609")
 	)
 	(wire
 		(pts
@@ -6764,6 +6794,17 @@
 		)
 		(uuid "53d9551e-d25a-4857-8226-a3354b9d32f0")
 	)
+	(label "THERM"
+		(at 76.2 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a01f0e2-8c88-4b26-be16-932c16196d10")
+	)
 	(label "QSPI_SS"
 		(at 250.19 60.96 180)
 		(fields_autoplaced yes)
@@ -6917,6 +6958,17 @@
 			(justify left bottom)
 		)
 		(uuid "c9fcf6be-789d-4fd3-94f4-8f05a4e3b20a")
+	)
+	(label "THERM"
+		(at 107.95 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cabf439b-16f6-432f-9263-bc7e01f68c76")
 	)
 	(label "QSPI_SD3"
 		(at 250.19 73.66 180)
@@ -15476,74 +15528,6 @@
 			(project "ledDisplay"
 				(path "/3ee789e6-fb21-4cc9-b756-b9e72c78c2b7"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece1aa6b-d102-44d4-b7fa-2b5dd6f73daa")
-		(property "Reference" "TP1"
-			(at 111.76 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc93c65d-50c5-42be-b639-2e6a42728ecc")
-		)
-		(instances
-			(project "ledDisplay"
-				(path "/3ee789e6-fb21-4cc9-b756-b9e72c78c2b7"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
